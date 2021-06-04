@@ -1,0 +1,280 @@
+
+
+header{
+    background-image: linear-gradient(to bottom, #8d8d8d 75%,rgb(224, 224, 224));
+    padding: 20px 0;
+    
+    
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(224, 224, 224);
+}
+.banner{
+    opacity: 1; 
+    -webkit-mask-image: linear-gradient(to top, transparent,black 50%,transparent );
+    width: 100%;
+}
+
+.caixaNav{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 0 0 0 15px;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+nav a:hover{ 
+    color: rgb(187, 161, 16);   
+}
+
+.servicos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.servicos li:hover{
+    border-color: rgb(187, 161, 16);
+}
+.servicos li:active{
+    border-color: royalblue;
+}
+.servicos li:hover h2{
+font-size: 30px;
+}
+
+.servicos li:hover .precoServico{
+    font-size: 24px;
+    transition: 0.5s;
+}
+
+.servicos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: black 2px solid;
+    border-radius: 20px;
+    transition: 0.5s all;
+    background-color: white;
+}
+
+.servicos h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+.descricaoServico{
+    font-size: 18px;
+}
+.precoServico{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    background:url(bg.jpg);
+    padding: 40px 0;
+}
+
+.copyright{
+    margin-top: 20px;
+    color: white;
+    font-size: 13px;
+}
+.assinatura{
+    margin-top: 20px;
+    color: rgb(216, 194, 0);
+    font-size: 16px;
+}
+
+
+
+form{
+    margin: 40px 0 40px;
+    text-align: center;
+}
+
+form label, form p,form table{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 0 0 10px;
+    padding: 10px;
+}
+
+.inputPadrao{
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    width: 30%;
+    
+}
+
+.checkbox{
+    margin: 20px 0 20px;
+}
+
+.horario{
+    margin: 20px 0 20px;
+    display: inline-block;
+}
+
+
+
+.enviar{
+width: 40%;
+padding: 15px 0;    
+background: orange;
+color: white;
+box-shadow: 3px 2px rgb(145, 145, 145);
+border-radius: 5px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+font-weight: bold;
+border: none;
+transition: 1s all;
+cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+.enviar:active{
+    background: rgb(172, 94, 0);
+    box-shadow: none;
+}
+
+table{
+    margin: 20px 0 40px;
+}
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+/* css da pagina Home */
+
+.tituloPrincipal{
+text-align: center;
+font-size: 2em;
+margin: 1em;
+clear: left;
+font-family: 'Montserrat', sans-serif;
+text-shadow: 2px 2px 20px;
+}
+
+.principal{
+    padding: 3em 0;
+    background: rgb(224, 224, 224);
+    width: 940px;
+    margin: 0 auto;
+}
+.principal p{
+    margin: 1em;
+}
+.principal strong{
+    font-weight: bold;
+}
+.principal em{
+    font-style: italic;
+}
+.principal img{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+    box-shadow:5px 5px 10px;
+    border-radius: 70px;
+}
+.mapa{
+    padding: 3em 0;
+    background:linear-gradient(rgb(224, 224, 224), #8d8d8d);
+}
+.mapaCentralizado{
+    width: 940px;
+    margin: 0 auto;
+    box-shadow:5px 5px 10px;
+}
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+.beneficios{
+    padding: 3em 0;
+    background: #8d8d8d;
+}
+.conteudoBeneficios{
+ width: 640px;
+ margin: 0 auto;   
+}
+.listaBeneficios{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.itens:before{
+    content: "★";
+}
+.itens{
+ line-height: 1.5;
+}
+
+
+.imagemBeneficios{
+    width: 60%;
+    transition: 400ms;
+    opacity: 1;
+    box-shadow: 10px 10px 5px;
+}
+.imagemBeneficios:hover{
+    opacity: 0.4;
+    
+}
+.video{
+    width: 560px;
+    margin: 2em auto;
+    box-shadow:5px 5px 10px;
+}
+
+
+
+
+@media (max-width:480px){
+    .caixaNav, .principal,.tituloPrincipal, .conteudoBeneficios,.mapaCentralizado,.video{
+        width: auto;
+    }
+    h1{
+        text-align: center;
+    }
+    nav{
+         position: static;
+    }
+    .listaBeneficios, .imagemBeneficios{
+        width:100%
+    }
+}
